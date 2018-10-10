@@ -14,13 +14,13 @@ public class SicheresBeendenThread implements Runnable {
 	 * @param args
 	 */
 	
-	
+
 		public void run() {
 			try {
 				while(Thread.currentThread().isInterrupted() == false) {
 					//weiter Arbeiten
 				}
-			}catch(InterruptedException ex ){
+//			}catch(InterruptedException ex ){
 				// Thread wurde beim schlafen oder warten unterbrochen
 			}finally {
 				//Aufräumarbeit
